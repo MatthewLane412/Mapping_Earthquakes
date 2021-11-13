@@ -181,10 +181,10 @@ function styleInfo(feature) {
       fillOpacity: 1,
       fillColor: "#ffae42",
       color: "#000000",
-      radius: getRadius(),
+      radius: getRadius(feature.properties.mag),
       stroke: true,
       weight: 0.5
-    };we
+    };
   }
 
 // This function determines the radius of the earthquake marker based on its magnitude.
@@ -204,7 +204,9 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
       //We turn each feature into a circleMarker on the map.
     pointToLayer: function(feature, latlng) {
         console.log(data);
+        console.log(latlng)
         return L.circleMarker(latlng);
+        
     },
     style: styleInfo
   }).addTo(map);
