@@ -7,6 +7,6 @@ This analysis was using GeoJSON. Pulling in mapping from Mapbox and using the le
 ## Results
 Most earthquakes were on the fault lines, with some of the 
 
-![Earth_Earthquakes](/Mapping_Earthquakes/Earthquake_Challenge/Earthquake_Map.PNG)
+![Earth_Earthquakes](https://github.com/MatthewLane412/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Earthquake_Map.PNG)
 
 ## Summary
